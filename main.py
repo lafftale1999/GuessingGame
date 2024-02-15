@@ -118,5 +118,6 @@ user_amount_guess_highscore_list.sort()
 
 # skriver ut tackinformation tillsammans med antal gissningar från användarens bästa omgång.
 print(' ')
-print(f'Tack för att du spelade med mig! Din bästa omgång gissade du endast {user_amount_guess_highscore_list[0]}')
+print(f'Tack för att du spelade med mig! Du spelade {len(user_amount_guess_highscore_list)} omgångar och din '
+      f'bästa omgång gissade du endast {user_amount_guess_highscore_list[0]} gånger!')
 print('Hoppas vi ses igen!')
